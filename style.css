@@ -1,0 +1,260 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin:0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+ header{
+    background-color:#6495ED;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-bottom: orangered 3px solid;
+ }
+ header #logo h5{
+    margin:0;
+    padding-bottom: 20px;
+ }
+  
+ header h5{
+    font-size: 2em;
+    padding-top: 10px;
+ }
+  
+ header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+ }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+  header li{
+   float:left;
+   display: inline;
+   padding: 1em 16px 0 16px;
+  }
+
+  header .nav{
+    float:right;
+  }
+  header #logo{
+    float: left;
+  }
+  header .hightlight, .active a{
+    color: orange;
+    font-weight: bold;
+  }
+
+  header a:hover{
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Showcase */
+
+  #showcase{
+    min-height: 400px;
+    background: url(./Images/laptop_2.jpg) 0 -400px;
+    color:#ffff;
+    text-align: center; 
+  }
+
+  #showcase h1{
+    margin-top: 100px;
+    margin-bottom:20px;
+    font-size: 3em;
+  }
+  #showcase p{
+    font-size: 1.5em;
+  }
+
+  /*Newsletter*/
+
+  #newsletter{
+    padding: 15px;
+    background-color: #9FE2BF;
+    color:black;
+    font-size: 16px;;
+  }
+  #newsletter h2{
+    float: left;    
+  }
+  #newsletter form{
+    float: right;
+    margin-top: 15px;
+  }
+  #newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+
+  .my-button{
+    height:30px;
+    background-color: orangered;
+    border:none;
+    color:white;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+  }
+
+
+  /* Boxes */
+  #boxes{
+    padding-left: 20px;
+    margin-top: 25px;
+  }
+  
+  #boxes img{
+    width: 35%;
+   
+  }
+
+  #boxes .box{
+    float:left;
+    width: 30%; 
+    text-align: center;
+    padding: 8px;
+  }
+
+  #boxes .box2 img{
+    padding-bottom: 0px;
+  }
+
+  /* ABOUT US SECTION */
+
+  #About h3{
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 20px;
+  }
+  #About{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #About .Dark{
+    background-color: #515A5A;
+  }
+  #art > p.Dark{
+    color:white;
+    padding: 10px;
+  }
+  #About aside{
+    float:right;
+    width:30%;
+    border: 1px black solid;
+    padding:10px;
+    color: #fff
+  }
+
+  #About article{
+    float:left;
+    width:60%;
+  }
+
+  /*SERVICES AREA */
+  #services{
+    margin: 30px 0 30px 0;
+  }
+
+  #services article{
+    float:left;
+    width:60%;
+    font-family: cursive;
+  }
+  #services article li{
+    background-color: #ccc;
+    padding: 5px 5px 0 10px;
+   
+    }
+
+  #services aside{
+    float:right;
+    width:30%;
+    padding:10px;
+    color: #fff;
+    background-color: #515A5A;
+  }
+  #services input[type="message"]{
+    height: 50px;
+  }
+  #services input{
+    padding: 5px;
+    width:90%;
+    margin:0px;;
+  }
+
+  #services form{
+    margin:0px;
+    padding:0;
+  }
+
+  /*main footer */
+
+  #main-footer{
+    padding:10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: orangered;
+    color:white;
+  }
+  /* Media query */
+
+  @media(max-width: 768px) {
+    header #logo,
+    header navbar,
+    header navbar li,
+    #newsletter h2,
+    #newsletter form,
+    #boxes .box,
+   #About article,
+   #About aside,
+   #services article,
+   #services aside
+    {
+      float:none;
+      text-align: center;
+      width:100%;
+    }
+
+    header{
+      padding-bottom: 20px;
+    }
+
+    #showcase h1{
+      margin-top: 40px;
+    }
+
+    #newsletter button{
+      display: block;
+      width:100%;
+    }
+    #newsletter form input[type="email"]{
+      width:100%;
+      margin-bottom: 5px;
+    }
+    
+  }
+
+
+
+  
+
+
+
